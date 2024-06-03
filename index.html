@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <!-- my fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomhuria&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Macondo&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header section start -->
+    <header class="bg-main-texture bg-cover bg-center w-full z-10 relative">
+      <div class="container">
+        <div class="flex-col flex">
+          <div
+            class="h-[50px] w-[100vw] p-6 fixed flex justify-between items-center"
+          >
+            <!-- humburger menu start -->
+            <button
+              type="button"
+              id="humburger-menu"
+              name="humburger-menu"
+              class="flex flex-col justify-between items-center h-5 z-10 drop-shadow-md"
+            >
+              <span
+                class="w-[30px] h-[2px] bg-[#fff] transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="w-[30px] h-[2px] transition duration-300 ease-in-out bg-[#fff]"
+              ></span>
+              <span
+                class="w-[30px] h-[2px] bg-[#fff] transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <!-- humburger menu end -->
+
+            <!-- navbar menu start -->
+            <nav
+              id="navbar-menu"
+              class="font-Macondo absolute -top-[200px] left-0 right-0 pt-14 pb-2 bg-primary transition-all flex flex-col gap-2 flex-wrap"
+            >
+              <div class="group w-full flex justify-center">
+                <a
+                  href="#"
+                  class="block text-center relative after:content-[''] after:block after:w-full after:h-[0.1rem] after:bg-[#fff] after:scale-x-0 after:transition-transform after:origin-center group-hover:after:scale-x-50 group-hover:text-[#fff]"
+                >
+                  HOME
+                </a>
+              </div>
+              <div class="group w-full flex justify-center">
+                <a
+                  href="#"
+                  class="block text-center relative after:content-[''] after:block after:w-full after:h-[0.1rem] after:bg-[#fff] after:scale-x-0 after:transition-transform after:origin-center group-hover:after:scale-x-50 group-hover:text-[#fff]"
+                >
+                  ABOUT
+                </a>
+              </div>
+              <div class="group w-full flex justify-center">
+                <a
+                  href="#"
+                  class="block text-center relative after:content-[''] after:block after:w-full after:h-[0.1rem] after:bg-[#fff] after:scale-x-0 after:transition-transform after:origin-center group-hover:after:scale-x-50 group-hover:text-[#fff]"
+                >
+                  EDUCATION
+                </a>
+              </div>
+              <div class="group w-full flex justify-center">
+                <a
+                  href="#"
+                  class="block text-center relative after:content-[''] after:block after:w-full after:h-[0.1rem] after:bg-[#fff] after:scale-x-0 after:transition-transform after:origin-center group-hover:after:scale-x-50 group-hover:text-[#fff]"
+                >
+                  GALLERY
+                </a>
+              </div>
+            </nav>
+            <!-- navbar menu end -->
+
+            <!-- profile start -->
+            <div class="flex justify-center items-center gap-1 z-10">
+              <div
+                id="profile-content"
+                class="flex-col text-[10px] opacity-0 translate-x-12 transition duration-300 ease-in"
+              >
+                <p class="font-Montserrat-Alternates text-[#857B7B]">
+                  MY <span class="text-black">BIODATA</span>
+                </p>
+                <p class="font-Lobster-Two">Rafid Hilmi</p>
+              </div>
+              <div
+                class="overflow-hidden rounded-full w-10 border-4 border-white shadow-md z-10"
+              >
+                <img src="src/img/brand.jpg" alt="profile-img" />
+              </div>
+            </div>
+            <!-- profile end -->
+          </div>
+
+          <div
+            class="flex justify-center items-center font-Montserrat-Alternates text-slate-100 text-4xl h-[100vh] text-center"
+          >
+            <h1>WELCOME TO MY BIODATA</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- my javascript -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
