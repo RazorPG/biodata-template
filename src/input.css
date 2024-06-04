@@ -28,6 +28,10 @@
   @apply z-10 text-4xl md:text-5xl lg:text-6xl font-Ravi-Prakash text-center mb-6 drop-shadow-lg after:block after:content-[''] after:border-b-[2px] after:origin-top after:scale-x-[0.25];
 }
 
+.onscroll-navbar {
+  @apply translate-x-0;
+}
+
 .mask-hero {
   mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
 }
