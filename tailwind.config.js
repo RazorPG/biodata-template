@@ -10,12 +10,21 @@ module.exports = {
         "Montserrat-Alternates": ["Montserrat Alternates", "sans-serif"],
         Macondo: ["Macondo", "sans-serif"],
         "Lobster-Two": ["Lobster Two", "sans-serif"],
+        "Ravi-Prakash": ["Ravi Prakash", "sans-serif"],
+        "Pathway-Gothic-One": ["Pathway Gothic One", "sans-serif"],
+        "Fira-Mono": ["Fira Mono", "sans-serif"],
+        ABeeZee: ["ABeeZee", "sans-serif"],
+        "Odibee-Sans": ["Odibee Sans", "sans-serif"],
+        myfont: ["MyFont", "sans-serif"],
       },
       colors: {
         primary: "#4EEBEF",
-        secondary: "#0B4445",
+        secondary: "#1B2A2E",
       },
     },
   },
   plugins: [],
+  corePlugins: {
+    scrollBehavior: true,
+  },
 };

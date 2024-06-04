@@ -10,7 +10,7 @@
 }
 
 .hamburger-active > span:nth-child(1) {
-  @apply rotate-[40deg];
+  @apply rotate-[45deg];
 }
 
 .hamburger-active > span:nth-child(2) {
@@ -18,5 +18,16 @@
 }
 
 .hamburger-active > span:nth-child(3) {
-  @apply -rotate-[40deg];
+  @apply -rotate-[45deg];
+}
+.clip-path-profile-about {
+  clip-path: polygon(0%0, 100%0, 100%90%, 0%90%);
+}
+
+.primary-section {
+  @apply z-10 text-4xl md:text-5xl lg:text-6xl font-Ravi-Prakash text-center mb-6 drop-shadow-lg after:block after:content-[''] after:border-b-[2px] after:origin-top after:scale-x-[0.25];
+}
+
+.mask-hero {
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
 }
