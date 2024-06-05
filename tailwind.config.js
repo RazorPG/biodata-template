@@ -15,6 +15,7 @@ module.exports = {
         "Fira-Mono": ["Fira Mono", "sans-serif"],
         ABeeZee: ["ABeeZee", "sans-serif"],
         "Odibee-Sans": ["Odibee Sans", "sans-serif"],
+        "Red-Hat-Text": ["Red Hat Text", "sans-serif"],
         myfont: ["MyFont", "sans-serif"],
       },
       colors: {
