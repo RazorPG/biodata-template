@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ["./index.php"],
   theme: {
     extend: {
-      backgroundImage: {
-        "main-texture": "url('/src/img/home-bg.gif')",
+      dropShadow: {
+        custom: "0 0 0 50px black",
       },
       fontFamily: {
         "Montserrat-Alternates": ["Montserrat Alternates", "sans-serif"],
@@ -25,7 +25,4 @@ module.exports = {
     },
   },
   plugins: [],
-  corePlugins: {
-    scrollBehavior: true,
-  },
 };

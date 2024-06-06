@@ -33,5 +33,14 @@
 }
 
 .mask-hero {
-  mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+}
+
+.bg-hero {
+  background-image: url("../../src/img/home-bg.gif");
+}
+
+.text-shadow-stroke {
+  text-shadow: 0 0 10px #4eebef, 0 0 20px #4eebef, 0 0 40px #4eebef,
+    0 0 80px #4eebef;
 }
