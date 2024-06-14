@@ -2,7 +2,7 @@
 /node_modules/
 
 # Build output directories
-/dist/css
+/dist/css/output.css
 
 # Log files
 *.log
